@@ -12,8 +12,8 @@ module.exports = {
           // Compiles Sass to CSS
           loader: "sass-loader",
           options: {
-            additionalData: `@import "assets/main.scss";`,
-            // includePaths: [__dirname, "./assets/**/*"],
+            data: `@import "./assets/main.scss";@import "./assets/style-resources.scss";`,
+            includePaths: [__dirname, "./assets/**/*"],
           },
         },
       ],
@@ -35,6 +35,6 @@ module.exports = {
   ],
   "addons": [
     "@storybook/addon-links",
-    "@storybook/addon-essentials"
+    "@storybook/addon-essentials",
   ]
 }

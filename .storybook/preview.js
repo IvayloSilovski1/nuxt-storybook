@@ -1,7 +1,4 @@
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
-// import '../assets/main.scss';
-// import '../assets/style-resources.scss';
-
 import Buefy from 'buefy'
 import Vue from 'vue'
 
