@@ -7,7 +7,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "storybook": "start-storybook -c .storybook -s static -p 6006",
+    "storybook": "start-storybook -c .storybook -p 6006",
     "build-storybook": "build-storybook"
   },
   "dependencies": {
@@ -16,6 +16,7 @@
     "nuxt-buefy": "^0.4.8"
   },
   "devDependencies": {
+    "@babel/core": "^7.15.8",
     "@babel/eslint-parser": "^7.15.8",
     "@nuxtjs/eslint-config": "^6.0.1",
     "@nuxtjs/eslint-module": "^3.0.2",
@@ -27,15 +28,20 @@
     "@storybook/addon-essentials": "^6.3.12",
     "@storybook/addon-links": "^6.3.12",
     "@storybook/addon-viewport": "^6.3.12",
+    "@storybook/preset-scss": "^1.0.3",
+    "@storybook/vue": "^6.3.12",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^4.3.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-nuxt": "^2.0.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^7.20.0",
     "prettier": "^2.4.1",
-    "sass": "^1.43.2",
-    "sass-loader": "^10.1.1",
+    "sass": "^1.43.4",
+    "sass-loader": "^10.2.0",
     "sass-resources-loader": "^2.2.4",
+    "style-loader": "^2.0.0",
     "stylelint": "^13.13.1",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-recess-order": "2.5.0",
@@ -43,6 +49,8 @@
     "stylelint-config-recommended-scss": "^4.3.0",
     "stylelint-order": "4.1.0",
     "stylelint-prettier": "^1.2.0",
-    "stylelint-scss": "^3.21.0"
+    "stylelint-scss": "^3.21.0",
+    "vue-loader": "^15.9.8",
+    "webpack": "^4.46.0"
   }
 }

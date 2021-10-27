@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Button />
+    <MyButton size="is-medium" />
   </div>
 </template>
 
