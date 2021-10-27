@@ -1,4 +1,7 @@
 .button {
   background-color: $primary-color;
   color: $text-color;
+  font-weight: $font-weight;
+  margin: $spacing;
+  padding: $spacing;
 }
