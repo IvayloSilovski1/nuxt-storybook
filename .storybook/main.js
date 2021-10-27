@@ -12,7 +12,7 @@ module.exports = {
           // Compiles Sass to CSS
           loader: "sass-loader",
           options: {
-            data: `@import "assets/main.scss";`,
+            additionalData: `@import "assets/main.scss";`,
             // includePaths: [__dirname, "./assets/**/*"],
           },
         },
