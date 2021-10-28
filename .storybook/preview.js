@@ -1,4 +1,10 @@
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
+
+// NEED THESE TO LOAD SCSS as global
+// import "../assets/**/*.scss";
+// import "../assets/style-resources.scss";
+// import "../assets/main.scss";
+
 import Buefy from 'buefy'
 import Vue from 'vue'
 

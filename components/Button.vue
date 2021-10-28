@@ -1,8 +1,10 @@
 <template>
-  <b-button class="button" :size="btnSize" @click="onClick" >{{ label }}</b-button>
+  <b-button :size="btnSize" @click="onClick" >{{ label }}</b-button>
 </template>
 
 <script>
+
+import "../assets/main.scss";
 
 export default {
   name: 'Button',

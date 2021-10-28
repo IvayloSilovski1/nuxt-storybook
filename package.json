@@ -7,7 +7,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "storybook": "start-storybook -c .storybook -p 6006",
+    "storybook": "start-storybook -c .storybook -s ./assets/fonts -p 6006",
     "build-storybook": "build-storybook"
   },
   "dependencies": {
@@ -39,7 +39,7 @@
     "eslint-plugin-vue": "^7.20.0",
     "prettier": "^2.4.1",
     "sass": "^1.43.4",
-    "sass-loader": "7.1.0",
+    "sass-loader": "^10.0.2",
     "sass-resources-loader": "^2.2.4",
     "style-loader": "^2.0.0",
     "stylelint": "^13.13.1",
